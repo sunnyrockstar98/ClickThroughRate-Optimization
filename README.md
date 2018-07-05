@@ -38,4 +38,4 @@ Simply this dataset is a sort of previous traffic log of the website helpful in 
 Now I have put up two code files one to show the reward we get when we randomly give ads to the user at each round and other to show how UCB would give almost twice the reward!!
 
 
-# Techniques to increses the reward even more would follow soon!!!
+# Techniques to increase the reward even more would follow soon!!!
