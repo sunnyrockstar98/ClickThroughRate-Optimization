@@ -9,12 +9,22 @@ Now online advertising these days can generate loads of revenue and the company'
 
 So we got a sort of simulation dataset called "Ads_CTR_Optimisation.csv" which has 10 columns for 10 ads and around 10,000 rows where each row is a user who has just logged into the website. (I will explain in details later!!)
 
-Each time the user logs into the website he/she is presented any 1 of the 10 ads. If the user clicks the ad it is considered as 1 else 0.
+#### Each time the user logs into the website he/she is presented any 1 of the 10 ads. If the user clicks the ad it is considered as 1 else 0. ####
 
-Now online websites generate money through this click through rate (CTR) of the ads. But customers hardly click on ads they don't like.
+Now online websites generate money through this *click through rate (CTR)* of the ads. But customers hardly click on ads they don't like.
+
 So if the car company could somehow find a method to presesnt ads in a manner (obviously random ads don't give a great reward) that would generate high reward for them it would be great!!
 
 That method is Reinforcement Learning or Online Learning where the website learns from its mistakes or past actions.
+
+Direct link to the code is here:
+
+https://github.com/sunnyrockstar98/ClickThroughRate-Optimization/blob/master/upper_confidence_bound.py
+
+In the repo you can also find code for random selections to figure out yourself how efficient UCB algorithm is.
+
+Continue reading for in-depth explanation.
+
 The algorithm at play is the UCB (Upper Confidence Bound)
 -----------------------------------------------------------------------------------------
 Now coming back to the dataset "Ads_CTR_Optimisation.csv"...(it's a bit tricky).
