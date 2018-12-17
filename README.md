@@ -3,7 +3,7 @@
 
 This repo aims to use Upper Confidence Bound technique and Reinforcement Learning to find the best way of presenting SUV ads on a website.
 
-The problem is that a car company is about to launch a brand new SUV in a month. To market it properly the Marketing and Publicty team came up with 10 different advertisments for the SUV....in different scenarios like near a bridge or forest or a stadium, etc.
+### The problem is that a car company is about to launch a brand new SUV in a month. To market it properly the Marketing and Publicty team came up with 10 different advertisments for the SUV....in different scenarios like near a bridge or forest or a stadium, etc. ###
 
 Now online advertising these days can generate loads of revenue and the company's website has no idea which ad the customers would love the most or click the most.
 
